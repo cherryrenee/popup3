@@ -80,8 +80,12 @@ main {
   background-color: #212529;
   color: whitesmoke;
   position: fixed;
-  top: 20px;
-  left: 33%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  display: none;
 }
 
 .modal-inner {
@@ -106,7 +110,6 @@ main {
   background-color: transparent;
   border: 1px solid transparent;
   color: whitesmoke;
-  position: fixed;
 }
 
 .modal-close-btn:hover,
@@ -126,6 +129,10 @@ main {
   padding: 8px 16px;
   display: flex;
   justify-content: center;
+}
+
+.modal-choice-btns-reverse {
+  flex-direction: row-reverse;
 }
 
 .modal-btn {

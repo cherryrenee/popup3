@@ -46,6 +46,28 @@
           track you, and we'll definitely spam you. To use this site, enter your
           name and email address and accept our ridiculous terms and conditions.
         </p>
+        <form id="consent-form">
+          <input
+            type="text"
+            aria-label="이름을 입력해주세요."
+            name="fullName"
+            placeholder="Full Name"
+            required
+          />
+          <input
+            type="email"
+            aria-label="이메일을 입력해주세요."
+            name="email"
+            placeholder="Email"
+            required
+          />
+          <div class="modal-choice-btns" id="modal-choice-btns">
+            <button class="modal-btn" type="submit">Accept</button>
+            <button class="modal-btn" type="button" id="decline">
+              Decline
+            </button>
+          </div>
+        </form>
       </div>
     </div>
     <script src="index.js" type="module"></script>
